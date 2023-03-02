@@ -7,9 +7,11 @@ on:
       - '*'
 
 jobs:
-  macos:
+  ARM64:
     name: PHP ${{ matrix.php-version }} ${{ matrix.arch }}
-    runs-on: self-hosted
+    runs-on: 
+    - self-hosted
+    - ARM64
     strategy:
       fail-fast: false
       matrix:
