@@ -28,6 +28,7 @@ wget https://github.com/hyperf/box/releases/download/v0.5.5/box_x86_64_linux -O 
 sudo mv ./box /usr/local/bin/box
 sudo chmod 755 /usr/local/bin/box
 // Make sure /usr/local/bin/box in your $PATH env, or put `box` into any path in $PATH env that you want
+
 ```
 ##### Linux aarch64
 
